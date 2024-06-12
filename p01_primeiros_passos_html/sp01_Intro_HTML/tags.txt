@@ -15,7 +15,7 @@ e outros elementos.
 <strong></strong>: Define texto com forte ênfase, indicando que seu conteúdo é de 
 grande importância ou relevância.
 
-<input>: Cria uma caixa de entrada interativa em formulários, permitindo que os 
+<input />: Cria uma caixa de entrada interativa em formulários, permitindo que os 
 usuários insiram dados como texto, números ou seleções de opções.
 
     *type: Especifica o tipo de campo de entrada a ser exibido, como texto, senha, 
@@ -44,7 +44,7 @@ atributo class: Atribui um ou mais nomes de classe a um elemento, permitindo
 aplicar estilos CSS ou manipulações JavaScript a grupos de elementos com a mesma 
 classe.
 
-<img/>: Insere uma imagem em uma página HTML.
+<img />: Insere uma imagem em uma página HTML.
 
     *src: Especifica o URL ou caminho da imagem que deve ser exibida.
     *width: Define a largura da imagem em pixels ou como uma porcentagem do 
@@ -107,6 +107,11 @@ o que significa que o texto é posicionado ligeiramente acima da linha de base
 normal. É comumente usado para representar expoentes, como em fórmulas 
 matemáticas, notas de rodapé ou marcas registradas.
 
+<sub></sub>: É usada para definir texto que deve ser exibido como subscrito, 
+ou seja, texto que é exibido um pouco abaixo da linha de base do texto normal. 
+Isso é comum em fórmulas químicas, equações matemáticas e anotações 
+científicas.
+
 <ol></ol>: Define uma lista numerada, onde cada item é precedido por um número 
 automaticamente incrementado pelo navegador. Cada item da lista é representado 
 pela tag <li> (list item). Listas ordenadas são úteis quando a ordem dos itens 
@@ -126,30 +131,64 @@ página web, a um recurso diferente, ou a uma seção específica dentro da mesm
 página. O atributo mais importante da tag <a> é o href, que especifica a URL de 
 destino do link.
 
-    *href: Indica a URL ou o destino para o qual o link aponta. Quando um usuário 
-           clica no link, ele será direcionado para a URL especificada no atributo 
-           href.
-    *title: Fornece informações adicionais sobre o link, geralmente apresentadas ao 
-            usuário como uma dica de ferramenta (tooltip) quando ele passa o cursor 
-            sobre o link. Esse atributo pode ser usado para oferecer contexto extra 
-            ou descrever o destino do link de maneira mais detalhada.
-    *target: Especifica onde o link associado deve ser aberto.
-        -_self: Abre o link no mesmo frame, guia ou janela onde o link foi clicado.
-        -_blank: Pode abrir a página vinculada em uma nova aba, mas também pode 
-                 permitir que a página vinculada tenha acesso à window.opener e 
-                 potencialmente redirecione a página original. Para prevenir isso, 
-                 é recomendado usar rel="noopener noreferrer" junto com 
-                 target="_blank".
-    *rel: Especifica a relação entre o documento atual e o documento vinculado. Ele 
-          é usado para fornecer informações adicionais ao navegador e aos mecanismos 
-          de busca sobre o tipo de relacionamento que existe entre as duas páginas.
-        -noopener: Garante que a nova página aberta não terá acesso ao objeto 
-                   window.opener, prevenindo qualquer tentativa de manipulação da 
-                   página de origem.
-        -noreferrer: Garante que o referenciador (a URL da página de origem) não seja 
-                     enviada à nova página, melhorando a privacidade.
+   *href: Indica a URL ou o destino para o qual o link aponta. Quando um usuário 
+          clica no link, ele será direcionado para a URL especificada no atributo 
+          href.
+      -#: É uma maneira comum de definir um link que não leva a lugar nenhum ou, 
+          mais especificamente, que leva o usuário de volta ao topo da página atual. 
+          Quando um usuário clica nesse link, a página é rolada até o topo.
+      -#nomeDeUmId: É usado para criar um link âncora que leva o usuário para um 
+                    elemento específico na mesma página com o ID correspondente.
+                    Por exemplo, se você tiver um elemento na página com 
+                    id="section1", ao criar um link com href="#section1", clicar 
+                    nesse link fará com que o navegador role a página até o elemento 
+                    com o ID "section1", mostrando-o no topo da janela de 
+                    visualização.
+   *title: Fornece informações adicionais sobre o link, geralmente apresentadas ao 
+           usuário como uma dica de ferramenta (tooltip) quando ele passa o cursor 
+           sobre o link. Esse atributo pode ser usado para oferecer contexto extra 
+           ou descrever o destino do link de maneira mais detalhada.
+   *target: Especifica onde o link associado deve ser aberto.
+      -_self: Abre o link no mesmo frame, guia ou janela onde o link foi clicado.
+      -_blank: Pode abrir a página vinculada em uma nova aba, mas também pode 
+               permitir que a página vinculada tenha acesso à window.opener e 
+               potencialmente redirecione a página original. Para prevenir isso, 
+               é recomendado usar rel="noopener noreferrer" junto com 
+               target="_blank".
+   *rel: Especifica a relação entre o documento atual e o documento vinculado. Ele 
+         é usado para fornecer informações adicionais ao navegador e aos mecanismos 
+         de busca sobre o tipo de relacionamento que existe entre as duas páginas.
+      -noopener: Garante que a nova página aberta não terá acesso ao objeto 
+                 window.opener, prevenindo qualquer tentativa de manipulação da 
+                 página de origem.
+      -noreferrer: Garante que o referenciador (a URL da página de origem) não seja 
+                   enviada à nova página, melhorando a privacidade.
 
+<hr />: É usada para inserir uma linha horizontal em uma página HTML. Ela é usada 
+principalmente para separar conteúdo, como parágrafos ou seções, visualmente. Por 
+padrão, ela cria uma linha horizontal que se estende pela largura do elemento pai, 
+mas você pode estilizá-la com CSS para ajustar sua aparência, como cor, espessura e 
+estilo.
 
-    
+<small></small>: É usada em HTML para definir texto que deve ser renderizado em um 
+tamanho menor do que o texto circundante. É comumente usado para inserir texto legal, 
+notas de rodapé ou qualquer texto que não seja de grande importância em comparação 
+com o conteúdo principal da página. 
+
+<del></del>: É usada para marcar texto como deletado ou removido. Quando o navegador 
+renderiza o conteúdo dentro dessa tag, geralmente exibe o texto com uma linha através 
+dele para indicar que foi removido. Isso é útil em casos como revisões de documentos 
+ou histórico de edições, onde você deseja mostrar o texto que foi removido.
+
+<abbr></abbr>: É usada para definir uma abreviação ou uma sigla. Ela é útil para 
+fornecer uma explicação ou definição do que a abreviação representa.
+
+   *title: É usado para fornecer uma explicação ou definição da abreviação 
+           especificada. Quando um usuário passa o mouse sobre o texto da abreviação, 
+           o navegador exibe o conteúdo do atributo title como uma dica de ferramenta 
+           (tooltip).
+
+<br />: É usada para inserir uma quebra de linha, ou seja, para forçar o texto ou 
+elementos subsequentes a começarem em uma nova linha.
 
 
