@@ -1,0 +1,155 @@
+<html></html>: É a raiz de um documento HTML, englobando todo o conteúdo da página, 
+incluindo as seções <head> e <body>. Ela define o início e o fim do documento HTML.
+
+<head></head>: É a seção de um documento onde se colocam metadados e informações como 
+título da página, links para folhas de estilo, scripts, e outras configurações que não 
+são exibidas diretamente ao usuário. Ela é carregada antes do body.
+
+<body></body>: Contém todo o conteúdo visível da página, como textos, imagens, links 
+e outros elementos.
+
+<title></title>: Define o título da página, exibido na aba do navegador.
+
+<i></i>: Aplica itálico ao texto, sem implicar ênfase semântica.
+
+<strong></strong>: Define texto com forte ênfase, indicando que seu conteúdo é de 
+grande importância ou relevância.
+
+<input>: Cria uma caixa de entrada interativa em formulários, permitindo que os 
+usuários insiram dados como texto, números ou seleções de opções.
+
+    *type: Especifica o tipo de campo de entrada a ser exibido, como texto, senha, 
+           email, número, etc., determinando o formato dos dados que o usuário pode
+           inserir.
+        -text: Na tag <input> especifica que a entrada deve aceitar texto simples, 
+               como palavras ou frases. É comumente usado para campos de texto onde 
+               os usuários podem digitar livremente.
+        -number: Na tag <input> cria um campo de entrada que permite ao usuário 
+                 inserir um valor numérico, com opções para definir valores mínimo, 
+                 máximo e passo.
+        -color: Na tag <input> cria um seletor de cor, permitindo ao usuário 
+                escolher uma cor a partir de uma paleta, que retorna um valor 
+                hexadecimal da cor selecionada.
+
+atributo id: Fornece uma identificação única para um elemento, permitindo 
+referenciá-lo facilmente por meio de scripts ou estilos CSS.
+
+atributo style: Permite aplicar estilos diretamente a um elemento, usando 
+propriedades CSS como cor, tamanho, margem, etc.
+
+    -color: Define a cor do texto de um elemento usando valores de cores CSS, 
+            como nomes de cores, códigos hexadecimais, ou valores RGB.
+
+atributo class: Atribui um ou mais nomes de classe a um elemento, permitindo 
+aplicar estilos CSS ou manipulações JavaScript a grupos de elementos com a mesma 
+classe.
+
+<img/>: Insere uma imagem em uma página HTML.
+
+    *src: Especifica o URL ou caminho da imagem que deve ser exibida.
+    *width: Define a largura da imagem em pixels ou como uma porcentagem do 
+            elemento pai.
+
+<h1></h1> a <h6></h6>: Definem cabeçalhos de diferentes níveis em um documento 
+HTML, criando uma hierarquia de títulos e subtítulos. 
+
+    Pontos Comuns:
+        1. Hierarquia: As tags de cabeçalho de <h1> a <h6> estabelecem uma 
+           hierarquia de títulos e subtítulos, que organizam o conteúdo de 
+           forma lógica e estruturada.
+        2. SEO (Otimização para Motores de Busca): Os motores de busca usam 
+           os cabeçalhos para entender a estrutura e o conteúdo da página. 
+           Cabeçalhos bem estruturados ajudam a melhorar a indexação e a 
+           relevância nos resultados de busca. O uso correto dos cabeçalhos 
+           melhora a visibilidade e a classificação da página nos motores de 
+           busca.
+        3. Acessibilidade: Tecnologias assistivas, como leitores de tela, 
+           usam os cabeçalhos para ajudar os usuários a navegar e compreender 
+           o conteúdo de forma mais eficiente. Cabeçalhos bem estruturados 
+           permitem que os usuários com deficiência visual saltem de seção em 
+           seção, em vez de ler todo o texto de forma linear.
+        4. Estilização: Por padrão, os navegadores aplicam estilos diferentes 
+           a cada nível de cabeçalho, com <h1> sendo o maior e mais proeminente, 
+           e <h6> o menor.
+        
+<p></p>: Define um parágrafo de texto em HTML. Ela é usada principalmente para 
+agrupar blocos de texto como parágrafos, indicando ao navegador que o conteúdo 
+deve ser tratado como um parágrafo de texto. Por padrão, os parágrafos possuem 
+margens superiores e inferiores para separação, mas podem ser estilizados com 
+CSS para ajustar a aparência, como fonte, cor e espaçamento. Além disso, a tag 
+<p> melhora a estrutura e a leitura do documento, facilitando a navegação para 
+usuários que utilizam tecnologias assistivas.
+
+<blockquote></blockquote>: É usada para representar uma seção de texto que foi 
+citada de outra fonte. Por padrão, o navegador geralmente indenta e/ou italiza 
+o texto dentro de <blockquote> para destacá-lo do restante do conteúdo. Ela é 
+frequentemente usada para citar trechos longos de texto, como citações de 
+livros, artigos ou entrevistas.
+
+<strong></strong>: É usada para indicar que o texto dentro dela é importante ou 
+enfatizado, geralmente resultando em um texto mais negritado no navegador 
+padrão. No entanto, é importante notar que o propósito principal dessa tag não 
+é apenas para estilizar o texto em negrito, mas sim para transmitir significado 
+semântico ao conteúdo.
+
+<u></u>: É utilizada para aplicar sublinhado ao texto dentro dela. No entanto, 
+seu uso é desencorajado em favor de uma melhor prática de acessibilidade, já que 
+sublinhar o texto pode interferir com a compreensão para algumas pessoas, 
+especialmente aquelas que usam leitores de tela.
+
+<mark></mark>: É usada para envolver partes de um texto que são destacadas de 
+alguma forma, muitas vezes com uma cor de fundo amarela padrão nos navegadores. 
+Ela é frequentemente usada para destacar termos de pesquisa ou outras partes 
+importantes de um texto.        
+
+<sup></sup>: É utilizada para renderizar o texto dentro dela como sobrescrito, 
+o que significa que o texto é posicionado ligeiramente acima da linha de base 
+normal. É comumente usado para representar expoentes, como em fórmulas 
+matemáticas, notas de rodapé ou marcas registradas.
+
+<ol></ol>: Define uma lista numerada, onde cada item é precedido por um número 
+automaticamente incrementado pelo navegador. Cada item da lista é representado 
+pela tag <li> (list item). Listas ordenadas são úteis quando a ordem dos itens 
+é importante, como em instruções passo a passo ou rankings.
+
+<ul></ul>: Define uma lista de itens onde a ordem dos itens não é importante. 
+Cada item da lista é representado pela tag <li> (list item). Por padrão, os 
+navegadores exibem listas não ordenadas com marcadores (bullets) ao lado de 
+cada item.
+
+<li></li>: Representa um item de uma lista. Quando usada dentro de uma tag <ol>, 
+os itens são numerados. Quando usada dentro de uma tag <ul>, os itens são 
+marcados com pontos ou outros símbolos.
+
+<a></a>: Define um hyperlink, que é um link clicável que pode levar o usuário a outra 
+página web, a um recurso diferente, ou a uma seção específica dentro da mesma 
+página. O atributo mais importante da tag <a> é o href, que especifica a URL de 
+destino do link.
+
+    *href: Indica a URL ou o destino para o qual o link aponta. Quando um usuário 
+           clica no link, ele será direcionado para a URL especificada no atributo 
+           href.
+    *title: Fornece informações adicionais sobre o link, geralmente apresentadas ao 
+            usuário como uma dica de ferramenta (tooltip) quando ele passa o cursor 
+            sobre o link. Esse atributo pode ser usado para oferecer contexto extra 
+            ou descrever o destino do link de maneira mais detalhada.
+    *target: Especifica onde o link associado deve ser aberto.
+        -_self: Abre o link no mesmo frame, guia ou janela onde o link foi clicado.
+        -_blank: Pode abrir a página vinculada em uma nova aba, mas também pode 
+                 permitir que a página vinculada tenha acesso à window.opener e 
+                 potencialmente redirecione a página original. Para prevenir isso, 
+                 é recomendado usar rel="noopener noreferrer" junto com 
+                 target="_blank".
+    *rel: Especifica a relação entre o documento atual e o documento vinculado. Ele 
+          é usado para fornecer informações adicionais ao navegador e aos mecanismos 
+          de busca sobre o tipo de relacionamento que existe entre as duas páginas.
+        -noopener: Garante que a nova página aberta não terá acesso ao objeto 
+                   window.opener, prevenindo qualquer tentativa de manipulação da 
+                   página de origem.
+        -noreferrer: Garante que o referenciador (a URL da página de origem) não seja 
+                     enviada à nova página, melhorando a privacidade.
+
+
+    
+
+
