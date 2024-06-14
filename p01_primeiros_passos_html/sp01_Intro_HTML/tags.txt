@@ -37,8 +37,23 @@ referenciá-lo facilmente por meio de scripts ou estilos CSS.
 atributo style: Permite aplicar estilos diretamente a um elemento, usando 
 propriedades CSS como cor, tamanho, margem, etc.
 
-    -color: Define a cor do texto de um elemento usando valores de cores CSS, 
-            como nomes de cores, códigos hexadecimais, ou valores RGB.
+   -color: Define a cor do texto de um elemento usando valores de cores CSS, 
+           como nomes de cores, códigos hexadecimais, ou valores RGB.
+   -font-family: Especifica a família de fontes que deve ser aplicada ao texto de 
+                 um elemento. Esse atributo define a aparência tipográfica do texto, 
+                 permitindo ao desenvolvedor escolher entre diversas fontes 
+                 disponíveis no sistema ou na web. 
+   -font-weight: Controla a espessura (ou peso) do texto. Ela pode ter vários 
+                 valores que vão desde palavras-chave até números específicos que 
+                 indicam diferentes graus de espessura. 
+                 Valores numéricos de 100 a 900: Onde 400 é normal e 700 é negrito. 
+                 Outros valores intermediários ou extremos ajustam a espessura de 
+                 forma mais precisa.
+   -font-size: É usada para definir o tamanho do texto diretamente em um elemento 
+               específico. Isso permite um controle preciso e imediato sobre a 
+               aparência do texto.
+   -background-color: Aplica uma cor de fundo a um elemento específico na página web.
+   
 
 atributo class: Atribui um ou mais nomes de classe a um elemento, permitindo 
 aplicar estilos CSS ou manipulações JavaScript a grupos de elementos com a mesma 
@@ -46,9 +61,9 @@ classe.
 
 <img />: Insere uma imagem em uma página HTML.
 
-    *src: Especifica o URL ou caminho da imagem que deve ser exibida.
-    *width: Define a largura da imagem em pixels ou como uma porcentagem do 
-            elemento pai.
+   *src: Especifica o URL ou caminho da imagem que deve ser exibida.
+   *width: Define a largura da imagem em pixels.
+   *height: Define a altura da imagem em pixels.
 
 <h1></h1> a <h6></h6>: Definem cabeçalhos de diferentes níveis em um documento 
 HTML, criando uma hierarquia de títulos e subtítulos. 
