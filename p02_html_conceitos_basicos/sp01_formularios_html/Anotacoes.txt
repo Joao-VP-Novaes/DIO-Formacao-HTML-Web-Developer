@@ -1,0 +1,24 @@
+Quando usar um input em que type=checkbox, ao definir um name para o input, deve-se
+colocar colchetes '[]' no final do nome para que o back-end identifique que está chegando
+uma lista, e não um valor único. Por exemplo:
+
+    <input type="checkbox" name="opcional" value="queijo"> + queijo <br />
+    <input type="checkbox" name="opcional" value="calabresa"> + calabresa <br />
+    <input type="checkbox" name="opcional" value="cebola"> + cebola <br />
+    <input type="checkbox" name="opcional" value="azeitona"> + azeitona <br />
+
+Se todas as opções acima forem marcadas, o servidos entenderá que opcional=azeitona, 
+pois o valor mudou de queijo para calabresa, depois para cebola e por fim azeitona.
+No exemplo abaixo, isso não ocorre:
+
+    <input type="checkbox" name="opcional[]" value="queijo"> + queijo <br />
+    <input type="checkbox" name="opcional[]" value="calabresa"> + calabresa <br />
+    <input type="checkbox" name="opcional[]" value="cebola"> + cebola <br />
+    <input type="checkbox" name="opcional[]" value="azeitona"> + azeitona <br />
+
+No formato acima, o back-end vai interpretar o campo como opcional=[queijo, calabresa,
+cebola, azeitona].
+
+Em alguns casos, uma validação no front-end não é o bastante, pois o usuário pode 
+alterar o código da página no menu "elements" do navegador. Isso torna necessário uma
+validação no back-end.

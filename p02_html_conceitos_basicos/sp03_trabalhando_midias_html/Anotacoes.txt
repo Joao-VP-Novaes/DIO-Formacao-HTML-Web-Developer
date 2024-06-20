@@ -1,0 +1,40 @@
+PNG (Portable Network Graphics):
+
+    *Compressão: Sem perdas (lossless), o que significa que não há perda de 
+     qualidade ao salvar e reabrir a imagem.
+    *Transparência: Suporta transparência, permitindo que partes da imagem 
+     sejam transparentes.
+    *Uso ideal: Gráficos com áreas transparentes, imagens com texto, 
+     logotipos e gráficos que requerem alta qualidade e precisão de cor.
+
+JPEG/JPG (Joint Photographic Experts Group):
+
+    *Compressão: Com perdas (lossy), o que significa que alguma qualidade 
+     da imagem é sacrificada para reduzir o tamanho do arquivo. A extensão 
+     .jpeg e .jpg são equivalentes; .jpg é uma versão mais curta usada por 
+     sistemas de arquivos mais antigos que limitavam extensões a três 
+     caracteres.
+    *Transparência: Não suporta transparência.
+    *Uso ideal: Fotografias e imagens com gradientes suaves de cor, onde a 
+     redução do tamanho do arquivo é mais importante do que a preservação 
+     da qualidade absoluta.
+
+Essas características tornam o PNG mais adequado para gráficos detalhados 
+e uso na web onde a qualidade visual é crucial, e o JPEG/JPG mais adequado 
+para fotografias onde a redução de tamanho é uma prioridade.
+
+Tanto as tags <video> quanto <audio> permitem a inclusão de múltiplas tags 
+<source> para fornecer diferentes formatos de mídia. Isso é útil porque 
+diferentes navegadores suportam diferentes formatos de mídia. Se um 
+navegador não puder reproduzir um formato específico, ele tentará os 
+formatos subsequentes fornecidos nas tags <source>, até encontrar um que 
+possa ser reproduzido. Por exemplo, se o navegador não conseguir rodar o 
+arquivo 'video.mp4', ele tentará rodar o arquivo 'video.webm', caso este 
+seja fornecido.
+
+Um arquivo .vtt (Web Video Text Tracks) é um formato de arquivo de texto 
+usado para armazenar legendas, descrições, capítulos e metadados para 
+elementos de mídia, como vídeo e áudio na web. O formato .vtt é definido 
+pelo padrão WebVTT (Web Video Text Tracks) e é amplamente suportado por 
+navegadores modernos para proporcionar uma experiência de mídia 
+enriquecida e acessível.

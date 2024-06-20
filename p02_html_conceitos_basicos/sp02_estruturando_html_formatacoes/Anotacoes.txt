@@ -1,0 +1,53 @@
+A diferença entre as tags <b> e <strong> em HTML reside principalmente na 
+semântica e no significado que elas atribuem ao conteúdo, além da estilização 
+padrão. A tag <b> é usada para estilizar o texto em negrito sem adicionar 
+nenhuma ênfase ou importância adicional, sendo puramente visual. É comumente 
+utilizada para destacar visualmente partes do texto, como nomes de produtos ou 
+palavras-chave, que precisam ser distinguidas do restante do conteúdo.
+Por outro lado, a tag <strong> é usada para indicar que o texto tem uma forte 
+ênfase ou importância. Ela transmite ao usuário e às tecnologias assistivas que 
+o conteúdo é de alta relevância ou urgência. A tag <strong> é apropriada para 
+destacar texto que requer atenção especial, como avisos, instruções críticas ou 
+informações importantes.
+Visualmente, ambas as tags exibem o texto em negrito por padrão, mas a diferença 
+fundamental está no significado semântico. A <b> apenas aplica o estilo de 
+negrito sem qualquer semântica adicional, enquanto a <strong> aplica o estilo de 
+negrito e adiciona uma ênfase semântica que pode ser anunciada por tecnologias 
+assistivas, ajudando usuários com deficiência visual a entender que o texto é 
+importante. A escolha entre <b> e <strong> deve ser baseada no contexto e na 
+necessidade de destacar visualmente ou semanticamente a importância do texto.
+
+Quando uma fonte específica é definida no código HTML ou CSS, se essa fonte não 
+estiver instalada no dispositivo do usuário, o navegador exibirá uma fonte de 
+fallback. Esse comportamento garante que o texto ainda seja legível mesmo que a 
+fonte desejada não esteja disponível.
+Para lidar com situações em que a fonte principal não está disponível, os 
+desenvolvedores podem definir uma lista de fontes de fallback. Isso é feito 
+especificando várias fontes na propriedade font-family do CSS ou no atributo 
+face da tag <font> do HTML, com a última fonte sendo uma família genérica 
+(serif, sans-serif, monospace, etc.). O navegador tentará usar cada fonte na 
+ordem especificada até encontrar uma que esteja disponível.
+Para evitar depender das fontes instaladas no dispositivo do usuário, os 
+desenvolvedores podem usar fontes web, que são carregadas pela internet. 
+Serviços como Google Fonts permitem que você inclua fontes específicas 
+diretamente no seu site, garantindo que todos os usuários vejam o mesmo tipo 
+de letra, independentemente das fontes instaladas em seus dispositivos.
+Quando o nome da fonte é composto por múltiplas palavras, é uma boa prática 
+colocar aspas('') ao redor do nome para o navegador entender que aquilo é o 
+nome da fonte.
+
+Comportamento de Bloco: Elementos com display: block; ocupam toda a largura 
+disponível na linha onde estão inseridos e geralmente começam em uma nova 
+linha, empilhando verticalmente um sobre o outro. Isso significa que cada 
+<div> com display: block; normalmente começa em uma nova linha e se estende 
+horizontalmente para ocupar toda a largura do seu contêiner pai.
+
+Exemplos de formatos de cores para usar no CSS:
+
+    *Red(0-255), Green(0-255), Blue(0-255), Alpha(0.00-1.00):
+        rgb(72, 44, 88);
+        rgb(72, 44, 88, 0.5);
+
+    Hue(0-vermelho / 120-verde / 240-azul / 360-vermelho), Saturation(0-100), Lightness(0.00-1.00):
+        hsl(76, 100%, 50%)
+        hsla(270, 100%, 50%, 0.62)

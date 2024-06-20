@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 02 - HTML 1: Conceitos Básicos</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="./index.html" target="_self">
+                        <font face="arial">Início</font>
+                    </a></li>
+                <li><a href="./about.html" target="_self">
+                        <font face="arial">Sobre</font>
+                    </a></li>
+                <li><a href="./bussinessHours.html">
+                        <font face="arial">Horários</font>
+                    </a></li>
+                <li><a href="./contact.html" target="_self">
+                        <font face="arial">Contatos</font>
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header" style="display:flex; justify-content: center; align-items: center;">
+                <img src="imgs/img_bussinessHours.jpg" alt="banner principal" height="150px" />
+            </div>
+
+            <div class="content">
+                <h1>Horário de atendimento</h1>
+                <hr />
+
+                <p style="font-family: Arial, Helvetica, sans-serif;">
+                    A clínica opera de segunda a sexta-feira, inclusive em feriados, com horários que
+                    variam conforme a demanda de cada serviço. Alguns serviços estão disponíveis com
+                    horários mais amplos do que outros, sendo que alguns atendem por ordem de chegada
+                    e outros requerem agendamento prévio. <br /> A seguir, são apresentadas duas tabelas
+                    detalhando os horários de todos os serviços oferecidos. Em caso de dúvida, entre em 
+                    contato conosco.
+                </p>
+
+                <h3 style="font-family: Arial, Helvetica, sans-serif; margin: auto;">Serviços por ordem de chegada</h3>
+
+                <table border="1">
+                    <caption
+                        style="font-size:x-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        Horários
+                    </caption>
+                    <thead style="background-color: black; color:white">
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábado</th>
+                        <th>Feriados</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Consultas com cardiologistas especializados</td>
+                            <td align="center">07:00 - 12:00 || 13:00 - 21:00</td>
+                            <td align="center">07:00 - 12:00 || 13:00 - 15:00</td>
+                            <td align="center">08:30 - 12:00</td>
+                        </tr>
+                        <tr>
+                            <td>Teste ergométrico (teste de esforço)</td>
+                            <td align="center">07:00 - 12:00 || 13:00 - 15:00</td>
+                            <td align="center">07:00 - 12:00 || 13:00 - 15:00</td>
+                            <td align="center">08:00 - 12:00</td>
+                        </tr>
+                        <tr>
+                            <td>Consulta de check-up cardiovascular</td>
+                            <td align="center">13:00 - 18:00</td>
+                            <td align="center">13:00 - 15:00</td>
+                            <td>13:00 - 15:00</td>
+                        </tr>
+                        <tr>
+                            <td>Programa de prevenção cardiovascular</td>
+                            <td align="center">09:00 - 12:00 || 13:00 - 18:00</td>
+                            <td align="center">09:00 - 12:00 || 15:00 - 18:00</td>
+                            <td align="center">15:00 - 18:00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+
+                <br /><br />
+
+                <h3 style="font-family: Arial, Helvetica, sans-serif; margin: auto;">Serviços por agendamento</h3>
+
+                <table border="1">
+                    <caption
+                        style="font-size:x-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        Horários
+                    </caption>
+                    <thead style="background-color: black; color:white">
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábado</th>
+                        <th>Feriados</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Exames de eletrocardiograma (ECG)</td>
+                            <td align="center">07:30 - 12:00 || 15:00 - 21:00</td>
+                            <td align="center">09:00 - 12:00 || 15:00 - 18:00</td>
+                            <td align="center">08:30 - 12:00 || 13:00 - 15:00</td>
+                        </tr>
+                        <tr>
+                            <td>Ecocardiograma</td>
+                            <td align="center">09:00 - 11:00 || 13:00 - 18:00</td>
+                            <td align="center">14:00 - 17:00</td>
+                            <td align="center">14:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Monitorização ambulatorial da pressão arterial (MAPA)</td>
+                            <td align="center">08:00 - 10:30 || 13:00 - 18:00</td>
+                            <td align="center">14:00 - 18:00</td>
+                            <td>14:00 - 17:30</td>
+                        </tr>
+                        <tr>
+                            <td>Acompanhamento pós-infarto</td>
+                            <td align="center">07:00 - 12:00 || 13:00 - 21:00</td>
+                            <td align="center">08:00 - 12:00 || 13:00 - 18:00</td>
+                            <td align="center">13:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Orientação nutricional e programas de exercícios</td>
+                            <td align="center">10:00 - 12:00 || 13:00 - 15:00</td>
+                            <td align="center">10:00 - 12:00 || 13:00 - 15:00</td>
+                            <td align="center">--</td>
+                        </tr>
+                        <tr>
+                            <td>Cateterismo cardíaco</td>
+                            <td align="center">07:30 - 11:00 || 13:00 - 19:00</td>
+                            <td align="center">07:30 - 11:00 || 13:00 - 17:00</td>
+                            <td align="center">07:30 - 11:00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="footer" style="padding-left: 32px; padding-top: 12px; color: aliceblue;">
+                <img src="imgs/svg_phone.svg" alt="telefone celular" width="20" />
+                <span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Telefone: 4002-8922
+                </span> <br /><br />
+                <img src="imgs/svg_email.svg" alt="Email" width="20" />
+                <span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Email: clinicardio@gmail.com.br
+                </span> <br /><br />
+                <img src="imgs/svg_world.svg" alt="Site profissional" width="20" />
+                <span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Website: clinicardio.com.br
+                </span> <br /><br />
+                <img src="imgs/svg_insta.svg" alt="Instagram da página" width="20" />
+                <span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Instagram: clinica.cardio
+                </span><br /><br />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

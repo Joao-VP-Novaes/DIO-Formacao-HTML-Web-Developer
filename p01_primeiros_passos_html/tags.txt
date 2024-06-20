@@ -18,18 +18,18 @@ grande importância ou relevância.
 <input />: Cria uma caixa de entrada interativa em formulários, permitindo que os 
 usuários insiram dados como texto, números ou seleções de opções.
 
-    *type: Especifica o tipo de campo de entrada a ser exibido, como texto, senha, 
-           email, número, etc., determinando o formato dos dados que o usuário pode
-           inserir.
-        -text: Na tag <input> especifica que a entrada deve aceitar texto simples, 
-               como palavras ou frases. É comumente usado para campos de texto onde 
-               os usuários podem digitar livremente.
-        -number: Na tag <input> cria um campo de entrada que permite ao usuário 
-                 inserir um valor numérico, com opções para definir valores mínimo, 
-                 máximo e passo.
-        -color: Na tag <input> cria um seletor de cor, permitindo ao usuário 
-                escolher uma cor a partir de uma paleta, que retorna um valor 
-                hexadecimal da cor selecionada.
+   *type: Especifica o tipo de campo de entrada a ser exibido, como texto, senha, 
+          email, número, etc., determinando o formato dos dados que o usuário pode
+          inserir.
+      -text: Na tag <input> especifica que a entrada deve aceitar texto simples, 
+             como palavras ou frases. É comumente usado para campos de texto onde 
+             os usuários podem digitar livremente.
+      -number: Na tag <input> cria um campo de entrada que permite ao usuário 
+               inserir um valor numérico, com opções para definir valores mínimo, 
+               máximo e passo.
+      -color: Na tag <input> cria um seletor de cor, permitindo ao usuário 
+              escolher uma cor a partir de uma paleta, que retorna um valor 
+              hexadecimal da cor selecionada.
 
 atributo id: Fornece uma identificação única para um elemento, permitindo 
 referenciá-lo facilmente por meio de scripts ou estilos CSS.
