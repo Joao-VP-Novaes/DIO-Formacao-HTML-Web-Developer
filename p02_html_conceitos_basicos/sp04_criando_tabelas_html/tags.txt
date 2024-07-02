@@ -3,35 +3,35 @@ em linhas e colunas. As tabelas são úteis para exibir informações tabulares,
 calendários, dados financeiros, ou qualquer conjunto de informações que necessite de 
 uma estrutura ordenada.
 
-    *border: Foi amplamente utilizado em versões antigas do HTML para especificar a 
-             largura da borda das células da tabela. No entanto, seu uso não é mais 
-             recomendado, pois a estilização e formatação de tabelas é 
-             preferencialmente realizada através de CSS hoje em dia.
-    *width: É utilizado para especificar a largura da tabela. Assim como outros 
-            atributos de estilo, seu uso direto no HTML é uma prática antiga e, 
-            atualmente, é mais recomendado utilizar CSS para estilização. No 
-            entanto, é útil entender como ele funciona.
-    *align: É utilizado para definir o alinhamento da tabela em relação ao elemento 
-            pai.
-        -left: Era usado em versões antigas do HTML para alinhar a tabela à esquerda 
-               do elemento pai.
-        -right: Era usado em versões anteriores do HTML para alinhar a tabela à 
-                direita do elemento pai.
-        -center: Era usado para centralizar tabelas dentro do contêiner pai. 
-    *cellspacing: É usado para definir o espaço (espaçamento) entre as células da 
-                  tabela. Este atributo especifica a largura, em pixels, do espaço 
-                  entre as bordas das células adjacentes.
-    *cellpadding: É usado para definir o espaçamento interno (padding) das células 
-                  da tabela. Especificamente, ele determina a quantidade de espaço 
-                  entre o conteúdo da célula e as bordas da célula. Esse atributo 
-                  é especificado em pixels e afeta todas as células da tabela.
-    *summary: Embora o atributo summary tenha sido útil para fornecer descrições de 
-              tabelas, ele é considerado obsoleto no HTML5. Para garantir a 
-              acessibilidade, recomenda-se usar alternativas modernas como fornecer 
-              descrições no texto adjacente ou utilizar atributos ARIA (Accessible 
-              Rich Internet Applications). Essas práticas não apenas melhoram a 
-              acessibilidade, mas também se alinham com os padrões e boas práticas 
-              atuais de desenvolvimento web.
+        *border: Foi amplamente utilizado em versões antigas do HTML para especificar a 
+                 largura da borda das células da tabela. No entanto, seu uso não é mais 
+                 recomendado, pois a estilização e formatação de tabelas é 
+                 preferencialmente realizada através de CSS hoje em dia.
+        *width: É utilizado para especificar a largura da tabela. Assim como outros 
+                atributos de estilo, seu uso direto no HTML é uma prática antiga e, 
+                atualmente, é mais recomendado utilizar CSS para estilização. No 
+                entanto, é útil entender como ele funciona.
+        *align: É utilizado para definir o alinhamento da tabela em relação ao elemento 
+                pai.
+                -left: Era usado em versões antigas do HTML para alinhar a tabela à esquerda 
+                       do elemento pai.
+                -right: Era usado em versões anteriores do HTML para alinhar a tabela à 
+                        direita do elemento pai.
+                -center: Era usado para centralizar tabelas dentro do contêiner pai. 
+        *cellspacing: É usado para definir o espaço (espaçamento) entre as células da 
+                      tabela. Este atributo especifica a largura, em pixels, do espaço 
+                      entre as bordas das células adjacentes.
+        *cellpadding: É usado para definir o espaçamento interno (padding) das células 
+                      da tabela. Especificamente, ele determina a quantidade de espaço 
+                      entre o conteúdo da célula e as bordas da célula. Esse atributo 
+                      é especificado em pixels e afeta todas as células da tabela.
+        *summary: Embora o atributo summary tenha sido útil para fornecer descrições de 
+                tabelas, ele é considerado obsoleto no HTML5. Para garantir a 
+                acessibilidade, recomenda-se usar alternativas modernas como fornecer 
+                descrições no texto adjacente ou utilizar atributos ARIA (Accessible 
+                Rich Internet Applications). Essas práticas não apenas melhoram a 
+                acessibilidade, mas também se alinham com os padrões e boas práticas 
+                atuais de desenvolvimento web.
 
 <tr></tr>: É essencial para a construção de tabelas em HTML, pois define as linhas 
 que organizam os dados em colunas. Quando combinada com <th> e <td>, ela permite a 
@@ -90,25 +90,32 @@ O atributo rowspan pode ser utilizado nas tags <td></td> e <th></th>.
 também pode ser usada para outras relações como ícones de sites (favicon), feeds RSS, e 
 muito mais.
 
-    *rel: Especifica a relação entre o documento HTML atual e o recurso vinculado 
-          através do atributo href. A presença e o valor corretos de rel são 
-          essenciais para que o navegador entenda como deve tratar o recurso 
-          vinculado. Se o atributo rel estiver ausente ou incorreto, o navegador 
-          pode não conseguir interpretar corretamente o propósito do recurso vinculado. 
-          Por exemplo, um arquivo CSS vinculado sem o rel="stylesheet" pode não ser 
-          aplicado como uma folha de estilo, afetando a apresentação visual da página.
-        -stylesheet: Indica que o recurso vinculado é uma folha de estilo CSS.
-        -icon: Indica que o recurso vinculado é um ícone, geralmente usado para 
-               favicons. Favicon é um pequeno ícone que identifica um site ou blog. 
-               Ele é exibido na aba e na tela inicial dos navegadores de internet, nos 
-               resultados mobile do Google e na seção de favoritos. O favicon é importante 
-               para reforçar a credibilidade de uma página, pois conecta o usuário com a 
-               respectiva marca.
-        -preload: Indica que o recurso deve ser pré-carregado para otimizar o desempenho 
-                  da página.
+        *rel: Especifica a relação entre o documento HTML atual e o recurso vinculado 
+              através do atributo href. A presença e o valor corretos de rel são 
+              essenciais para que o navegador entenda como deve tratar o recurso 
+              vinculado. Se o atributo rel estiver ausente ou incorreto, o navegador 
+              pode não conseguir interpretar corretamente o propósito do recurso vinculado. 
+              Por exemplo, um arquivo CSS vinculado sem o rel="stylesheet" pode não ser 
+              aplicado como uma folha de estilo, afetando a apresentação visual da página.
+                -stylesheet: Indica que o recurso vinculado é uma folha de estilo CSS.
+                -icon: Indica que o recurso vinculado é um ícone, geralmente usado para 
+                       favicons. Favicon é um pequeno ícone que identifica um site ou blog. 
+                       Ele é exibido na aba e na tela inicial dos navegadores de internet, nos 
+                       resultados mobile do Google e na seção de favoritos. O favicon é importante 
+                       para reforçar a credibilidade de uma página, pois conecta o usuário com a 
+                       respectiva marca.
+                -preload: Indica que o recurso deve ser pré-carregado para otimizar o desempenho 
+                          da página.
         *href: É utilizado para especificar o local (URL) do recurso que está sendo 
                vinculado ao documento HTML. Este atributo é essencial para indicar onde 
                o navegador deve buscar o arquivo externo que será usado no contexto 
                definido pelo atributo rel. O atributo href é essencial para a 
                funcionalidade correta da tag <link> e é amplamente suportado por todos 
                os navegadores modernos.
+
+<section></section>: É útil para dividir claramente diferentes partes de uma página, como capítulos, 
+seções de artigos, ou partes distintas de um layout. <section> possui um significado semântico mais 
+claro ao agrupar conteúdo relacionado, enquanto <div> é neutro em termos de significado semântico.
+Escolha <div> quando precisar de um contêiner genérico semântico e <section> quando estiver dividindo 
+o conteúdo em partes distintas e significativas de uma página. Ambos são importantes para criar 
+layouts bem estruturados e acessíveis.

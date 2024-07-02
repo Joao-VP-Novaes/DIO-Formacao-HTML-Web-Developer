@@ -5,10 +5,11 @@ rasterizados (como JPEGs e PNGs) que perdem qualidade quando redimensionados. Co
 suporte para formas, texto, animações, e interatividade, SVGs são ideais para desenhos 
 complexos que precisam ser redimensionados sem perda de qualidade.
 
-atributo alt: É usado em elementos de imagem (tag <img>) em HTML para fornecer um 
-texto alternativo que descreve o conteúdo da imagem. Este texto é exibido no lugar da 
-imagem se ela não puder ser carregada e é lido por leitores de tela, tornando o 
-conteúdo acessível a usuários com deficiência visual.
+atributo alt: É um atributo usado em HTML para fornecer uma descrição alternativa de 
+um elemento. Ele é essencial para acessibilidade e SEO, e é particularmente útil para 
+usuários que não podem ver a imagem, como aqueles que usam leitores de tela ou têm 
+configurações do navegador que impedem a exibição de imagens. É usado exclusivamente
+com a tag <img />.
 
 <audio></audio>: É usada para incorporar conteúdo de áudio em uma página web. Ela 
 permite que os desenvolvedores adicionem música, efeitos sonoros, e outros tipos de 

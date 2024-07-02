@@ -47,7 +47,7 @@ a incorporação de conteúdo de diversos tipos, como arquivos de vídeo, áudio
 aplicativos Flash (embora Flash esteja obsoleto), entre outros, diretamente na página 
 web.
 
-<video></video: É usada para incorporar vídeos diretamente em uma página web. Ela foi 
+<video></video>: É usada para incorporar vídeos diretamente em uma página web. Ela foi 
 introduzida no HTML5 e fornece uma maneira padronizada e sem necessidade de plugins 
 externos para exibir vídeos. A tag <video> oferece suporte a uma variedade de 
 atributos e métodos para controlar a reprodução do vídeo e pode incluir múltiplas 

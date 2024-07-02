@@ -48,120 +48,120 @@
 <input />: Cria uma caixa de entrada interativa em formulários, permitindo que os 
 usuários insiram dados como texto, números ou seleções de opções.
 
-    *name: É essencial para identificar os dados enviados ao servidor quando um formulário 
-           é submetido. Ele especifica a chave do par nome-valor, permitindo que o servidor 
-           reconheça e processe os dados de entrada corretamente. Sem o atributo name, os 
-           valores dos campos de entrada não seriam incluídos na submissão do formulário, 
-           tornando impossível a coleta e manipulação adequada das informações pelo servidor.
-    *type: Especifica o tipo de campo de entrada a ser exibido, como texto, senha, 
-           email, número, etc., determinando o formato dos dados que o usuário pode
-           inserir.
-        -password: Cria um campo de entrada onde o texto digitado pelo usuário é mascarado, 
-                   geralmente com asteriscos ou pontos, para manter a privacidade e a 
-                   segurança das informações.
-        -button: Na tag <input> cria um botão que pode ser completamente personalizado com 
-                 JavaScript para executar qualquer função desejada, oferecendo uma forma 
-                 versátil de interatividade em formulários e interfaces web.
-        -range: Cria um controle deslizante (slider) que permite ao usuário selecionar um 
-                valor dentro de um intervalo definido. Este tipo de entrada é visualmente 
-                mais intuitivo para ajustar valores numéricos de maneira rápida e precisa.
-        -email: É utilizado para criar um campo de entrada específico para endereços de 
-                e-mail. Esse tipo de campo não apenas fornece uma interface adequada para a 
-                entrada de e-mails, mas também inclui validação automática pelo navegador 
-                para garantir que o valor inserido siga o formato padrão de um endereço de 
-                e-mail.
-        -submit: Na tag <input> é utilizado para criar um botão que, quando clicado, envia 
-                 o formulário no qual está inserido. Esse tipo de botão é essencial para a 
-                 funcionalidade de formulários HTML, pois facilita o envio dos dados 
-                 preenchidos pelo usuário para o servidor ou para um script de processamento.
-        -url: É utilizado para criar um campo de entrada destinado a URLs. Este tipo de campo 
-              ajuda a garantir que o usuário insira um endereço web válido, oferecendo 
-              validação automática pelo navegador para verificar se o valor inserido segue o 
-              formato de uma URL correta (por exemplo, https://www.exemplo.com). É uma 
-              ferramenta poderosa para coletar URLs válidas em formulários HTML, oferecendo 
-              validação automática, teclados otimizados em dispositivos móveis e suporte 
-              para personalização e validação adicional via JavaScript.
-        -date: Cria um campo de entrada intuitivo e consistente para a seleção de datas, 
-               proporcionando uma experiência de usuário melhorada com validação automática 
-               e compatibilidade com interfaces de seleção de data em navegadores e 
-               dispositivos móveis.
-        -week: Cria um campo de entrada que facilita a seleção de semanas específicas de um 
-               ano, proporcionando uma interface padronizada e validação automática, ideal 
-               para aplicações que requerem entrada de dados em um formato semanal.
-        -month: Cria um campo de entrada que facilita a seleção de um mês e um ano, 
-                proporcionando uma interface padronizada e validação automática, ideal para 
-                aplicações que requerem entrada de dados em um formato mensal.
-        -checkbox: É utilizado para criar uma caixa de seleção, que permite ao usuário marcar 
-                   ou desmarcar uma opção. Este tipo de campo é muito útil quando você precisa 
-                   permitir que os usuários selecionem uma ou várias opções independentes, com 
-                   validação automática e fácil manipulação através de JavaScript.
-        -radio: É usado para criar botões de opção, que permitem ao usuário selecionar apenas 
-                uma opção dentro de um grupo de escolhas mutuamente exclusivas. Diferentemente 
-                das caixas de seleção (type="checkbox"), onde várias opções podem ser 
-                selecionadas, os botões de rádio limitam a seleção a apenas uma opção por 
-                grupo. Inputs radio que pertencem ao mesmo grupo devem compartilhar o mesmo
-                valor para o atributo name.
-        -hidden: É utilizado para criar um campo de entrada que não é exibido ao usuário, mas 
-                 que permite enviar dados ocultos junto com um formulário HTML. Este tipo de 
-                 campo é útil para armazenar e transmitir informações que não precisam ser 
-                 vistas ou editadas pelo usuário, mas que são necessárias para a lógica do 
-                 processamento do formulário no servidor.
-        -file: Cria um campo de entrada que permite ao usuário selecionar e enviar arquivos 
-               de seu sistema local para o servidor. Este tipo de campo é comumente usado em 
-               formulários que exigem o upload de documentos, imagens, vídeos ou outros tipos 
-               de arquivos.
-        -multiple: Permite que o usuário selecione múltiplos valores ou arquivos, dependendo 
-                   do tipo de campo de entrada. É comumente usado com campos de entrada de 
-                   arquivos (type="file") e campos de seleção de e-mails (type="email"). No
-                   caso de type=email,o campo de entrada permite que o usuário insira 
-                   múltiplos endereços de e-mail separados por vírgulas.
-        -search: É usado para criar um campo de entrada destinado à pesquisa de texto. Esse 
-                 tipo de campo oferece uma interface específica para pesquisa, que pode 
-                 incluir funcionalidades adicionais em navegadores modernos, como um botão 
-                 de limpar (clear) que permite ao usuário apagar rapidamente o conteúdo do 
-                 campo.
-    *value: Especifica o valor inicial do campo de entrada. Ele é usado para definir o valor 
-            inicial que será exibido no campo quando a página carregar, permitindo ao usuário 
-            visualizar e, se necessário, modificar esse valor.
-    *min: É utilizado em conjunto com os tipos de entrada que aceitam valores numéricos, 
-          como <input type="number">, entre outros. Ele define o valor mínimo aceitável que 
-          pode ser inserido ou selecionado no campo de entrada.
-    *min: É utilizado em campos de entrada que aceitam valores numéricos ou de data para 
-          especificar o valor máximo permitido que pode ser inserido ou selecionado. Este 
-          atributo é particularmente útil em conjunto com tipos como <input type="number">,
-          entre outros.
-    *step: É utilizado com campos de entrada que aceitam valores numéricos, como 
-           <input type="number">. Ele define o incremento ou passo pelo qual o valor do 
-           campo pode ser aumentado ou diminuído.
-    *disabled: É usado para desativar um campo de entrada. Quando um campo de entrada está 
-               desativado, ele não pode ser interagido pelo usuário, não é enviado quando 
-               o formulário é submetido, e geralmente é exibido com um estilo visual 
-               diferente para indicar seu estado desativado.
+       *name: É essencial para identificar os dados enviados ao servidor quando um formulário 
+              é submetido. Ele especifica a chave do par nome-valor, permitindo que o servidor 
+              reconheça e processe os dados de entrada corretamente. Sem o atributo name, os 
+              valores dos campos de entrada não seriam incluídos na submissão do formulário, 
+              tornando impossível a coleta e manipulação adequada das informações pelo servidor.
+       *type: Especifica o tipo de campo de entrada a ser exibido, como texto, senha, 
+              email, número, etc., determinando o formato dos dados que o usuário pode
+              inserir.
+              -password: Cria um campo de entrada onde o texto digitado pelo usuário é mascarado, 
+                         geralmente com asteriscos ou pontos, para manter a privacidade e a 
+                         segurança das informações.
+              -button: Na tag <input> cria um botão que pode ser completamente personalizado com 
+                       JavaScript para executar qualquer função desejada, oferecendo uma forma 
+                       versátil de interatividade em formulários e interfaces web.
+              -range: Cria um controle deslizante (slider) que permite ao usuário selecionar um 
+                      valor dentro de um intervalo definido. Este tipo de entrada é visualmente 
+                      mais intuitivo para ajustar valores numéricos de maneira rápida e precisa.
+              -email: É utilizado para criar um campo de entrada específico para endereços de 
+                      e-mail. Esse tipo de campo não apenas fornece uma interface adequada para a 
+                      entrada de e-mails, mas também inclui validação automática pelo navegador 
+                      para garantir que o valor inserido siga o formato padrão de um endereço de 
+                      e-mail.
+              -submit: Na tag <input> é utilizado para criar um botão que, quando clicado, envia 
+                       o formulário no qual está inserido. Esse tipo de botão é essencial para a 
+                       funcionalidade de formulários HTML, pois facilita o envio dos dados 
+                       preenchidos pelo usuário para o servidor ou para um script de processamento.
+              -url: É utilizado para criar um campo de entrada destinado a URLs. Este tipo de campo 
+                    ajuda a garantir que o usuário insira um endereço web válido, oferecendo 
+                    validação automática pelo navegador para verificar se o valor inserido segue o 
+                    formato de uma URL correta (por exemplo, https://www.exemplo.com). É uma 
+                    ferramenta poderosa para coletar URLs válidas em formulários HTML, oferecendo 
+                    validação automática, teclados otimizados em dispositivos móveis e suporte 
+                    para personalização e validação adicional via JavaScript.
+              -date: Cria um campo de entrada intuitivo e consistente para a seleção de datas, 
+                     proporcionando uma experiência de usuário melhorada com validação automática 
+                     e compatibilidade com interfaces de seleção de data em navegadores e 
+                     dispositivos móveis.
+              -week: Cria um campo de entrada que facilita a seleção de semanas específicas de um 
+                     ano, proporcionando uma interface padronizada e validação automática, ideal 
+                     para aplicações que requerem entrada de dados em um formato semanal.
+              -month: Cria um campo de entrada que facilita a seleção de um mês e um ano, 
+                      proporcionando uma interface padronizada e validação automática, ideal para 
+                      aplicações que requerem entrada de dados em um formato mensal.
+              -checkbox: É utilizado para criar uma caixa de seleção, que permite ao usuário marcar 
+                         ou desmarcar uma opção. Este tipo de campo é muito útil quando você precisa 
+                         permitir que os usuários selecionem uma ou várias opções independentes, com 
+                         validação automática e fácil manipulação através de JavaScript.
+              -radio: É usado para criar botões de opção, que permitem ao usuário selecionar apenas 
+                      uma opção dentro de um grupo de escolhas mutuamente exclusivas. Diferentemente 
+                      das caixas de seleção (type="checkbox"), onde várias opções podem ser 
+                      selecionadas, os botões de rádio limitam a seleção a apenas uma opção por 
+                      grupo. Inputs radio que pertencem ao mesmo grupo devem compartilhar o mesmo
+                      valor para o atributo name.
+              -hidden: É utilizado para criar um campo de entrada que não é exibido ao usuário, mas 
+                       que permite enviar dados ocultos junto com um formulário HTML. Este tipo de 
+                       campo é útil para armazenar e transmitir informações que não precisam ser 
+                       vistas ou editadas pelo usuário, mas que são necessárias para a lógica do 
+                       processamento do formulário no servidor.
+              -file: Cria um campo de entrada que permite ao usuário selecionar e enviar arquivos 
+                     de seu sistema local para o servidor. Este tipo de campo é comumente usado em 
+                     formulários que exigem o upload de documentos, imagens, vídeos ou outros tipos 
+                     de arquivos.
+              -search: É usado para criar um campo de entrada destinado à pesquisa de texto. Esse 
+                       tipo de campo oferece uma interface específica para pesquisa, que pode 
+                       incluir funcionalidades adicionais em navegadores modernos, como um botão 
+                       de limpar (clear) que permite ao usuário apagar rapidamente o conteúdo do 
+                       campo.
+       *multiple: Permite que o usuário selecione múltiplos valores ou arquivos, dependendo 
+                  do tipo de campo de entrada. É comumente usado com campos de entrada de 
+                  arquivos (type="file") e campos de seleção de e-mails (type="email"). No
+                  caso de type=email,o campo de entrada permite que o usuário insira 
+                  múltiplos endereços de e-mail separados por vírgulas.
+       *value: Especifica o valor inicial do campo de entrada. Ele é usado para definir o valor 
+               inicial que será exibido no campo quando a página carregar, permitindo ao usuário 
+               visualizar e, se necessário, modificar esse valor.
+       *min: É utilizado em conjunto com os tipos de entrada que aceitam valores numéricos, 
+             como <input type="number">, entre outros. Ele define o valor mínimo aceitável que 
+             pode ser inserido ou selecionado no campo de entrada.
+       *max: É utilizado em campos de entrada que aceitam valores numéricos ou de data para 
+             especificar o valor máximo permitido que pode ser inserido ou selecionado. Este 
+             atributo é particularmente útil em conjunto com tipos como <input type="number">,
+             entre outros.
+       *step: É utilizado com campos de entrada que aceitam valores numéricos, como 
+              <input type="number">. Ele define o incremento ou passo pelo qual o valor do 
+              campo pode ser aumentado ou diminuído.
+       *disabled: É usado para desativar um campo de entrada. Quando um campo de entrada está 
+                  desativado, ele não pode ser interagido pelo usuário, não é enviado quando 
+                  o formulário é submetido, e geralmente é exibido com um estilo visual 
+                  diferente para indicar seu estado desativado.
 
 <button></button>: É usada em HTML para criar um botão clicável, que pode ser utilizado para 
 várias ações, como enviar formulários ou executar scripts JavaScript. Ela permite que o 
 conteúdo dentro dela seja texto, imagens ou outros elementos HTML.
 
-    *type: Especifica o comportamento do botão quando clicado.
-        -submit: Cria um botão que, ao ser clicado, envia o formulário ao servidor. Quando 
-                 acionado, o navegador coleta os dados dos campos de entrada do formulário 
-                 e os envia para uma URL especificada.
-        -button: É utilizado para criar um botão na interface do usuário que não tem um 
-                 comportamento padrão associado ao ser clicado. Isso significa que um botão 
-                 com type="button" não enviará formulários automaticamente nem fará qualquer 
-                 outra ação específica sem que você defina explicitamente através de 
-                 JavaScript o que deve acontecer quando ele for clicado.
-        -reset:  Define um botão que, quando clicado, reinicializa todos os campos de um 
-                 formulário para seus valores padrão. Isso significa que os campos do 
-                 formulário serão restaurados aos valores que tinham quando a página foi 
-                 carregada ou aos valores especificados nos atributos value dos elementos 
-                 de entrada.
-    *onclick: É usado para executar um código JavaScript quando o botão é clicado. Isso 
-              permite que você defina uma ampla variedade de comportamentos interativos 
-              diretamente no HTML, desencadeando ações quando o usuário interage com o botão.
-    *onmouseover: É usado para executar um código JavaScript quando o cursor do mouse passa 
-                  sobre o botão. Esse atributo permite criar efeitos visuais ou interações 
-                  específicas que ocorrem quando o usuário move o mouse sobre o elemento.
+       *type: Especifica o comportamento do botão quando clicado.
+              -submit: Cria um botão que, ao ser clicado, envia o formulário ao servidor. Quando 
+                       acionado, o navegador coleta os dados dos campos de entrada do formulário 
+                       e os envia para uma URL especificada.
+              -button: É utilizado para criar um botão na interface do usuário que não tem um 
+                       comportamento padrão associado ao ser clicado. Isso significa que um botão 
+                       com type="button" não enviará formulários automaticamente nem fará qualquer 
+                       outra ação específica sem que você defina explicitamente através de 
+                       JavaScript o que deve acontecer quando ele for clicado.
+              -reset: Define um botão que, quando clicado, reinicializa todos os campos de um 
+                      formulário para seus valores padrão. Isso significa que os campos do 
+                      formulário serão restaurados aos valores que tinham quando a página foi 
+                      carregada ou aos valores especificados nos atributos value dos elementos 
+                      de entrada.
+       *onclick: É usado para executar um código JavaScript quando o botão é clicado. Isso 
+                 permite que você defina uma ampla variedade de comportamentos interativos 
+                 diretamente no HTML, desencadeando ações quando o usuário interage com o botão.
+       *onmouseover: É usado para executar um código JavaScript quando o cursor do mouse passa 
+                     sobre o botão. Esse atributo permite criar efeitos visuais ou interações 
+                     específicas que ocorrem quando o usuário move o mouse sobre o elemento.
 
 <lable></label>: É usada para associar um rótulo descritivo a um elemento de formulário, 
 como um campo de entrada (<input>). Essa associação melhora a acessibilidade e a usabilidade 

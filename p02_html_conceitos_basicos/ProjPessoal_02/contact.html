@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota da Viagem</title>
+    <link rel="icon" href="imgs/svg_plane.svg" />
+</head>
+
+<body style="margin: 0px; padding: 0px;">
+    <div name="Menu" style="background-color: cadetblue; padding: 18px; text-align: right; word-spacing: 10px;">
+        <span
+            style="font-size: larger; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            <a style="text-decoration: none; color: aliceblue;" href="index.html"><b>Home</b></a>
+        </span>
+        <span
+            style="font-size: larger; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            <a style="text-decoration: none; color: aliceblue;" href="offers.html"><b>Ofertas</b></a>
+        </span>
+        <span
+            style="color: aliceblue; font-size: larger; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            <a style="text-decoration: none; color: aliceblue;" href="partners.html"><b>Parceiros</b></a>
+        </span>
+        <span
+            style="color: aliceblue; font-size: larger; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            <b><u style="color: rgb(253, 255, 218);"><a style="color: rgb(253, 255, 218); text-decoration: none;"
+                        href="#">Contato</a></u></b>
+        </span>
+    </div>
+
+    <div name="content" style="padding: 6px;">
+        <h1>Fale conosco.</h1>
+
+        <h3  style="font-family: Arial, Helvetica, sans-serif; margin-top: 2px; font-weight: 200;">
+            Ficou com alguma dúvida ou incerteza? <br />
+            Preencha o formulário abaixo e entraremos em contato com você assim que possível.
+        </h3>
+        <hr /> <br /> <br />
+
+        <form action="#" method="get" target="_self" autocomplete="off">
+            <fieldset>
+                <legend style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Informações pessoais
+                </legend>
+
+                <label>Nome: </label>
+                <input type="text" />
+                <br /> <br />
+
+                <label>Idade: </label>
+                <input type="number" min="18" max="100" />
+                <br /> <br />
+
+                <label>Gênero: </label>
+                <select name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="null">Prefiro não responder</option>
+                </select>
+                <br /> <br />
+
+                <label>Cidade: </label>
+                <input type="text" />
+                <br /> <br />
+
+                <label>Estado: </label>
+                <select name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+
+                </select>
+            </fieldset>
+
+            <br /> <br />
+
+            <fieldset>
+                <legend style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Informações para contato
+                </legend>
+
+                <label>Email: </label>
+                <input type="email" />
+                <br /> <br />
+
+                <label>Celular: </label>
+                <input type="text" />
+
+                <label>Whatsapp? </label>
+                <input type="radio" value="yes" name="radio" /> <label>Sim</label>
+                <input type="radio" value="no" name="radio" /> <label>Não</label>
+            </fieldset>
+            <br />
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </div>
+
+    <div name="footer" style="background-color: rgb(25, 37, 37); padding: 10px; color:white">
+        <form name="newsletter">
+            <span>Inscreva-se na nossa Newsletter:</span>
+            <input type="email" placeholder="Seu melhor email." />
+            <input type="button" value="Enviar" />
+        </form>
+
+        <p style="margin-top: 20px; margin-bottom: 10px;">Formas de contato: </p>
+        <ul style="margin-top: 10px;">
+            <li><span><img style="height: 16px;" src="imgs/svg_email.svg" /></span> rotaviagem@gmail.com</li>
+        </ul>
+        <ul style="margin-top: 10px;">
+            <li><span><img style="height: 16px;" src="imgs/svg_phone.svg" /></span> 4002-8922</li>
+        </ul>
+        <ul style="margin-top: 10px;">
+            <li><span><img style="height: 16px;" src="imgs/svg_insta.svg" /></span> @rotadaviagem</li>
+        </ul>
+
+        <div>
+            <small>
+                ©️ Este site foi criado com propósitos educacionais para aplicar os conhecimentos adquiridos no
+                curso de HTML da <abbr title="Digital Innovation One"><a href="https://web.dio.me/" style="color: rgb(198, 188, 255); 
+                text-decoration: none">DIO</a></abbr>. Todo o conteúdo multimídia utilizado foi obtido de
+                fontes gratuitas e não deve ser replicado para fins comerciais.
+            </small>
+        </div>
+    </div>
+</body>
+
+</html>
