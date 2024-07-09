@@ -62,7 +62,9 @@ classe.
 <img />: Insere uma imagem em uma página HTML.
 
    *src: Especifica o URL ou caminho da imagem que deve ser exibida.
+
    *width: Define a largura da imagem em pixels.
+
    *height: Define a altura da imagem em pixels.
 
 <h1></h1> a <h6></h6>: Definem cabeçalhos de diferentes níveis em um documento 
@@ -159,10 +161,12 @@ destino do link.
                     nesse link fará com que o navegador role a página até o elemento 
                     com o ID "section1", mostrando-o no topo da janela de 
                     visualização.
+
    *title: Fornece informações adicionais sobre o link, geralmente apresentadas ao 
            usuário como uma dica de ferramenta (tooltip) quando ele passa o cursor 
            sobre o link. Esse atributo pode ser usado para oferecer contexto extra 
            ou descrever o destino do link de maneira mais detalhada.
+
    *target: Especifica onde o link associado deve ser aberto.
       -_self: Abre o link no mesmo frame, guia ou janela onde o link foi clicado.
       -_blank: Pode abrir a página vinculada em uma nova aba, mas também pode 
@@ -170,6 +174,7 @@ destino do link.
                potencialmente redirecione a página original. Para prevenir isso, 
                é recomendado usar rel="noopener noreferrer" junto com 
                target="_blank".
+               
    *rel: Especifica a relação entre o documento atual e o documento vinculado. Ele 
          é usado para fornecer informações adicionais ao navegador e aos mecanismos 
          de busca sobre o tipo de relacionamento que existe entre as duas páginas.

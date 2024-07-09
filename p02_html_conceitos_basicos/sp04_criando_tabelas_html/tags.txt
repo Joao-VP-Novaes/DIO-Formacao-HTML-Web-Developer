@@ -26,12 +26,12 @@ uma estrutura ordenada.
                       entre o conteúdo da célula e as bordas da célula. Esse atributo 
                       é especificado em pixels e afeta todas as células da tabela.
         *summary: Embora o atributo summary tenha sido útil para fornecer descrições de 
-                tabelas, ele é considerado obsoleto no HTML5. Para garantir a 
-                acessibilidade, recomenda-se usar alternativas modernas como fornecer 
-                descrições no texto adjacente ou utilizar atributos ARIA (Accessible 
-                Rich Internet Applications). Essas práticas não apenas melhoram a 
-                acessibilidade, mas também se alinham com os padrões e boas práticas 
-                atuais de desenvolvimento web.
+                  tabelas, ele é considerado obsoleto no HTML5. Para garantir a 
+                  acessibilidade, recomenda-se usar alternativas modernas como fornecer 
+                  descrições no texto adjacente ou utilizar atributos ARIA (Accessible 
+                  Rich Internet Applications). Essas práticas não apenas melhoram a 
+                  acessibilidade, mas também se alinham com os padrões e boas práticas 
+                  atuais de desenvolvimento web.
 
 <tr></tr>: É essencial para a construção de tabelas em HTML, pois define as linhas 
 que organizam os dados em colunas. Quando combinada com <th> e <td>, ela permite a 
