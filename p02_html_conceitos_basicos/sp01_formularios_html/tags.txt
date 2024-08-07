@@ -163,10 +163,12 @@ conteúdo dentro dela seja texto, imagens ou outros elementos HTML.
                      sobre o botão. Esse atributo permite criar efeitos visuais ou interações 
                      específicas que ocorrem quando o usuário move o mouse sobre o elemento.
 
-<lable></label>: É usada para associar um rótulo descritivo a um elemento de formulário, 
+<label></label>: É usada para associar um rótulo descritivo a um elemento de formulário, 
 como um campo de entrada (<input>). Essa associação melhora a acessibilidade e a usabilidade 
 dos formulários, permitindo que os usuários cliquem no rótulo para focar no campo 
-relacionado.
+relacionado. Pode ser usada com outros elementos de formulário além de <input />. Ela é 
+apropriada para qualquer elemento de controle de formulário que precise de um rótulo 
+descritivo, como <textarea>, <select>, e <button>.
 
 <select></select>: É usada para criar um menu suspenso (dropdown), que permite ao usuário 
 escolher uma opção entre várias disponíveis. Essa tag é frequentemente usada em formulários 
