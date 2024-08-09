@@ -138,3 +138,22 @@ a um elemento de formulário específico, geralmente um campo de entrada como
 valor deve ser igual ao valor do atributo id do elemento do formulário ao 
 qual ele está associado. Isso permite que, quando o usuário clicar no rótulo, 
 o foco seja automaticamente transferido para o campo de entrada associado.
+
+<!-- -->: O conteúdo dentro desta marcação é um comentário. Ele pode ser 
+adicionado ao código-fonte HTML sem ser exibido quando a página for 
+renderizada pelo navegador.
+
+<dl></dl>: Em HTML é usada para criar uma lista de definições. Essa lista 
+é utilizada para apresentar termos e suas respectivas definições ou 
+descrições de forma organizada. Essa tag é especialmente útil para criar 
+glossários, listas de termos técnicos, FAQ (Frequently Asked Questions) 
+com perguntas e respostas, ou qualquer outro conteúdo onde há uma relação 
+direta entre um termo e sua definição.
+
+<dt></dt>: Em HTML é usada dentro de uma lista de definições criada com a 
+tag <dl> para representar um termo. Ela define o termo que será descrito ou 
+explicado por um ou mais elementos <dd> (Definition Description) subsequentes.
+
+<dd></dd>: Em HTML é usada dentro de uma lista de definições criada com a tag 
+<dl> para representar a descrição ou definição de um termo especificado pela 
+tag <dt>.
